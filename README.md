@@ -16,6 +16,7 @@ Project :
 
 * Spring Boot
 * RabbitMQ
+* Lombok
 * Data JPA
 * PostgreSQL
 * PostMan
