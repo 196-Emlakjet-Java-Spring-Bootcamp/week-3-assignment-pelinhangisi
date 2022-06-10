@@ -2,7 +2,6 @@ package com.example.rabbitmqconsumer.service;
 
 
 import com.example.rabbitmqconsumer.dao.SaleAdvertisementRepository;
-import com.example.rabbitmqconsumer.dto.SaleAdvertisementDto;
 import com.example.rabbitmqconsumer.entity.SaleAdvertisement;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
