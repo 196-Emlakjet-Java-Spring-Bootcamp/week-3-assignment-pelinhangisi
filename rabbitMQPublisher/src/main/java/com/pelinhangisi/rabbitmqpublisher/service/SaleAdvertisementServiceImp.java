@@ -44,7 +44,7 @@ public class SaleAdvertisementServiceImp implements SaleAdvertisementService{
                 .build();
         SaleAdvertisement saleAdvertisementDB = saleAdvertisementRepository.save(saleAdvertisement);
 
-        rabbitTemplate.convertAndSend(queue.getName(), saleAdvertisementDto);
+        rabbitTemplate.convertAndSend(queue.getName(), saleAdvertisementDB);
         return  "";
     }
 
